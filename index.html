@@ -7,8 +7,18 @@
   </head>
   <body>
     <h1>Welcome Walker...</h1>
-    <?php
-        echo "test w.";
-    ?>
+   <?php
+	$num = 2;
+	for ($i = 1; $i <= 10; $i++) {
+?>
+
+	<p><?= $num ?> * <?= $i ?>
+		= <?= $num * $i ?></p>
+
+<?php
+	}
+?>
+
+
   </body>
 </html>
