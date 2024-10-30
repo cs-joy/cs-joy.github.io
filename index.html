@@ -177,6 +177,7 @@
     	    <script>
               async function loadMarkdown() {
                 const response = await fetch('https://github.com/cs-joy/cs-joy.github.io/blob/main/Lab.md');
+		const markdown = await response.text();
 
                 const converter = new showdown.Converter();
                 const html = converter.makeHtml(markdown);
