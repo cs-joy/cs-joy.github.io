@@ -106,7 +106,8 @@
                 <h1>Md. Zahangir Alam</h1>
                 <div class="contact-info">
                     <p>Email: md.zahangir.alam@aub.ac.bd</p>
-                    <p>Location: Bangladesh</p>
+                    <p>Location: Dhaka, Bangladesh</p>
+                    <p>GitHub: <a href="https://github.com/cs-joy" target="_blank">github.com/cs-joy</a></p>
                     <p>LinkedIn: linkedin.com/in/md-zahangir-alam-2775482b2</p>
                 </div>
             </div>
@@ -148,7 +149,7 @@
             <h2>Education</h2>
             <div class="subsection">
                 <h3>Bachelor of Science in Computer Science and Engineering</h3>
-                <p>Asian University of Bangladesh | Ongoing...</p>
+                <p>Asian University of Bangladesh</p>
             </div>
         </div>
 
@@ -174,11 +175,11 @@
             </div>
         </div>
 
-	    <div id="markdown-content"></div>
+	    <!-- <div id="markdown-content"></div> -->
 
     	    <script>
               async function loadMarkdown() {
-                const response = await fetch('https://github.com/cs-joy/cs-joy.github.io/blob/main/Lab.md');
+                const response = await fetch('https://raw.githubusercontent.com/cs-joy/cs-joy.github.io/main/Lab.md');
 		const markdown = await response.text();
 
                 const converter = new showdown.Converter();
@@ -190,5 +191,9 @@
               loadMarkdown();
           </script>
     </div>
+    
+    <footer>
+    <p style="text-align: center">Copyright - 2025 &copy; Md Zahangir Alam</p>
+    </footer>
 </body>
 </html>

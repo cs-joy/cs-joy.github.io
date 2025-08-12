@@ -6,7 +6,7 @@ What is a neural network? To get started, I'll explain a type of artificial neur
 
 So how do perceptrons work? A perceptron takes several binary inputs, $x_1,x_2,…,$ and produces a single binary output:
 
-![Perceptrons](http://neuralnetworksanddeeplearning.com/images/tikz0.png)
+![Perceptrons]("http://neuralnetworksanddeeplearning.com/images/tikz0.png")
 
 In the example shown the perceptron has three inputs, $x_1,x_2,x_3$. In general it could have more or fewer inputs. Rosenblatt proposed a simple rule to compute the output. He introduced weights, $w_1,w_2,…,$ real numbers expressing the importance of the respective inputs to the output. The neuron's output, $0$ or $1$, is determined by whether the weighted sum $\sum_jw_jx_j$ is less than or greater than some threshold value. Just like the weights, the threshold is a real number which is a parameter of the neuron. To put it in more precise algebraic terms:
 
