@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="learning.html">Learning</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article id="cv">
+            <section id="personal-info">
+                <h2>[Your Full Name]</h2>
+                <p>[Your Profession]</p>
+                <p>[Email] | [Phone] | [Location]</p>
+            </section>
+            
+            <section id="education">
+                <h2>Education</h2>
+                <!-- Education details -->
+            </section>
+            
+            <section id="experience">
+                <h2>Professional Experience</h2>
+                <!-- Experience details -->
+            </section>
+            
+            <section id="skills">
+                <h2>Skills</h2>
+                <!-- Skills list -->
+            </section>
+        </article>
+        
+        <div id="bio-content"></div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Md Zahangir Alam. All rights reserved.</p>
+    </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<script>
+		fetch('content/bio.md')
+    	.then(response => response.text())
+    	.then(text => {
+        	document.getElementById('bio-content').innerHTML = marked.parse(text);
+    	});
+	</script>
+</body>
+</html>
