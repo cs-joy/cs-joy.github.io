@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://cs-joy.github.io/</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/research/financial-mathematics/exotic-options/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/programming-languages/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/neural-networks/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/large-language-model/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/machine-learning/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/federated-learning/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/blockchain/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/post-quantum-cryptography/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/financial-mathematics/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/problem-solving/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/research/financial-mathematics/exotic-options/compound/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cs-joy.github.io/self-learning/programming-languages/rust/index.html</loc>
+  <lastmod>2025-09-09T17:38:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
