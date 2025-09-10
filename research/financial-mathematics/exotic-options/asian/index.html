@@ -3,7 +3,7 @@
     <head>
     	<meta charset="UTF-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Research # Financial Mathematics # Exotic Options</title>
+		<title>Research # Financial Mathematics # Exotic Options # Asian Options</title>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
     	<style>
         	* {
@@ -63,52 +63,19 @@
     <body>
 		<div class="container">
 			<div class="section">
-				<div id="markdown-content-exotic-options"></div>
-				<h2></h2>
-				
-				<div class="subsection">
-					<h3>Asian Option</h3>
-					<p>-------------------------------------------------------------------------------</p>
-                			<p><a href="asian/index.html">Read my writing</a></p>
-				</div>
-				<div class="subsection">
-					<h3>Cliquet Option</h3>
-					<p>-------------------------------------------------------------------------------</p>
-                			<p><a href="">Read my writing</a></p>
-				</div>
-				<div class="subsection">
-					<h3>Compound Option</h3>
-					<p>-------------------------------------------------------------------------------</p>
-                			<p><a href="">Read my writing</a></p>
-				</div>
-				<div class="subsection">
-					<h3>Lookback Option</h3>
-					<p>-------------------------------------------------------------------------------</p>
-                			<p><a href="">Read my writing</a></p>
-				</div>
-				<div class="subsection">
-					<h3>Bermudan Option</h3>
-					<p>-------------------------------------------------------------------------------</p>
-                			<p><a href="">Read my writing</a></p>
-				</div>
-				<div class="subsection">
-					<h3>Compound Option</h3>
-					<p>-------------------------------------------------------------------------------</p>
-                			<p><a href="compound/index.html">Read my writing</a></p>
-				</div>
-				
+				<h2><a href="https://cs-joy.github.io">#root</a></h2>	
 			</div>
-			
+			<div id="markdown-content-asian"></div>
 			
 			<script>
               		async function loadMarkdown() {
-                		const response = await fetch('https://raw.githubusercontent.com/cs-joy/Financial-Mathematics/main/OptionsPricingTrinomialModel/Simulation/Exotic/README.md');
+                		const response = await fetch('https://raw.githubusercontent.com/cs-joy/Financial-Mathematics/main/OptionsPricingTrinomialModel/Simulation/Exotic/Asian/README.md');
 				const markdown = await response.text();
 
                 		const converter = new showdown.Converter();
                 		const html = converter.makeHtml(markdown);
 
-                		document.getElementById('markdown-content-exotic-options').innerHTML = html;
+                		document.getElementById('markdown-content-asian').innerHTML = html;
               		}
 
               loadMarkdown();
